@@ -1,0 +1,30 @@
+img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+#gallery {
+  display: flexbox;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+.abrakadabra {
+  margin: 25px;
+}

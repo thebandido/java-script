@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+body.show-modal .backdrop {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}
+
+.div-from {
+  width: 300px;
+  padding: 50px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.headerSignUp {
+  display: block;
+  text-align: center;
+}
+
+.formCss {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputCss:nth-last-child(4) {
+  margin: 0 0 15px 0;
+}
+
+.signUpButton {
+  display: block;
+  margin: 10px auto 0 auto;
+  border: 1px solid rgb(88, 88, 88);
+  background-color: #097bfd;
+  color: white;
+  padding: 6px;
+}
+
+.backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(59, 59, 59, 0.815);
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+
+  pointer-events: none;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+
+  padding: 20px;
+}
+
+.openModal {
+  display: block;
+  margin: 20px auto 0 auto;
+  border: 1px solid rgb(88, 88, 88);
+  background-color: #097bfd;
+  color: white;
+  padding: 6px;
+}
+.openModal:active {
+  color: black;
+}
+.closeModal {
+  border: 1px solid rgb(88, 88, 88);
+  background-color: #097bfd;
+  color: white;
+  padding: 6px;
+}

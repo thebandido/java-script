@@ -1,0 +1,36 @@
+.txt-input {
+  margin: 0 auto 10px auto;
+  display: flex;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+  height: 40px;
+  width: 100%;
+}
+
+.create-button,
+.delete-button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 1px 1px 1px black;
+  font-family: "Roboto Mono", monospace;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 250px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,46 @@
+h2 {
+  font-size: 18px;
+}
+.txt-input {
+  margin: 0 auto 10px auto;
+  display: flex;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+  height: 40px;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.create-button,
+.delete-button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 1px 1px 1px black;
+  font-family: "Roboto Mono", monospace;
+}
+
+.box-todo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo-item {
+  display: flex;
+  flex: 0 0 22%;
+  flex-direction: column;
+  padding: 10px;
+  width: 250px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+  margin: 10px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp form</title>
+    <link rel="stylesheet" href="signUp.css" />
+  </head>
+  <body>
+      <div class="div-from">
+
+          <div class="headerSignUp">
+              <h2>Sign up for Barbie World</h2>
+              <p>An easy way to be happy</p>
+            </div>
+            <form action="" method="get" class="formCss js-from-css">
+                <label for="login"> Login: </label>
+                <input type="text" name="login" id="login" class="inputCss" />
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="inputCss" />
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" class="inputCss" />
+                <label for="checkbox">Agree with terms and conditions
+                <input type="checkbox" name="TermsCheckbox"/>
+            </label>
+            <button type="button" class="openModal" data-action="open-modal">Read terms and conditions</button> 
+            
+        </label>
+        <button type="submit" data-action='send-data' class="signUpButton">Sign Up</button>    
+    </form>
+</div>
+</div>
+
+      <div class="backdrop backdrop-js">
+        <div class="modal">
+          <h2>Terms and conditions</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est similique
+            dolore quas quisquam fugiat magni. Incidunt placeat, perferendis
+            ratione, fugit quod tempore sunt neque aspernatur molestias sed
+            distinctio repellendus illum quam. Dolorum esse doloremque fugit
+            quibusdam, neque autem vero incidunt quod corrupti enim quasi illum
+            ullam at eaque blanditiis velit alias iure sed excepturi iste nobis.
+            Illo vitae nesciunt enim quae id dolor quasi dolorum voluptatibus?
+            Quidem molestias delectus sed adipisci sint odio quas saepe doloremque
+            nam magni iure, corporis cum eligendi asperiores alias dolorum quo
+            eveniet explicabo perspiciatis ipsam consequatur ratione in veniam!
+            Dignissimos ducimus similique accusamus optio molestiae!
+          </p>
+          <button type="" class="closeModal" data-action="closeModal">
+            Agree with terms and conditions
+          </button>
+        </div>
+      </div>
+   
+    <script src="./signUp.js" type="module"></script>
+    <!-- <script src="./modal.js" type="module"></script> -->
+  </body>
+</html>

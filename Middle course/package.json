@@ -1,0 +1,16 @@
+{
+  "name": "middle-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "recovery": "node recovery.js",
+    "git": "git add . && git commit -m `Update` && git push"
+  },
+  "author": "bandido <mail@eezy.com.ua>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
